@@ -13,6 +13,7 @@
 4. [Video Format and Recommendations](#video-format-and-recommendations)
 5. [Building the Project](#building-the-project)
 6. [Demo Video](#demo-video)
+7. [Reminders for Projection Mapping](#reminders-for-projection-mapping)
 8. [Credits](#credits)
 
 ---
@@ -51,7 +52,7 @@
 
 1. Import your videos into `Assets/StageOfLight/`.
 2. In the **Hierarchy** panel, select `VideoPlayers`.
-3. In the **Inspector** panel, under `VideoPlayers > Video Clip`, drag and drop your videos into the respective slots to replace the demo content.
+3. In the **Inspector** panel, under the component `Video Players > Video Clip`, drag and drop the six videos into the respective slots to replace the demo content.
 4. Test the videos by playing the scene.
 
 ---
@@ -70,16 +71,10 @@
 | Wall Vertical 有門的牆 | 4096x1128    |
 
 ### Encoding with Adobe Media Encoder
-- **Preset:** `H.264 > Match Source - Adaptive Low Bitrate`
+- **Preset:** `H.264 > Match Source - Adaptive Low Bitrate`  
 - For better quality, use `Match Source - Adaptive Mid Bitrate` or `Match Source - Adaptive High Bitrate`.
 
 ⚠ **Note:** High bitrate settings may cause playback issues for longer videos due to increased file sizes.
-
-### Reminders for Projection Mapping
-
-- **Consistency:** Maintain uniform backgrounds, color grading, and transitions across all six videos to ensure a seamless visual experience.  
-- **Hardware Performance:** Verify that your system can handle the simultaneous playback of six video streams without lag or performance issues.  
-- **Testing and Calibration:** Thoroughly test and align videos to minimize distortion and cropping, especially given the elongated shape of the room.
 
 ---
 
@@ -94,6 +89,14 @@
 ## Demo Video
 
 [![Watch the Demo Video](https://github.com/hsuehyt/StageOfLight1PanoramicVideo/blob/main/README/Screenshot%202024-11-18%20132004cropped.png)](https://youtu.be/3P2WE4laE2U)
+
+---
+
+## Reminders for Projection Mapping
+
+- **Consistency:** Ensure uniform backgrounds, color grading, and transitions across all six videos to create a cohesive and seamless experience.  
+- **Hardware Performance:** Test your system’s ability to play six video streams simultaneously without lag or performance drops.  
+- **Testing and Calibration:** Align and thoroughly test videos to avoid distortion and cropping, particularly for the elongated room layout.
 
 ---
 
