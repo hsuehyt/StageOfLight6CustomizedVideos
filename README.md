@@ -51,7 +51,7 @@
 
 1. Import your videos into `Assets/StageOfLight/`.
 2. In the **Hierarchy** panel, select `VideoPlayers`.
-3. In the **Inspector** panel, under the component `Video Players > Video Clip`, drag and drop the six videos into the respective slots to replace the demo content.
+3. In the **Inspector** panel, under the component `Video Players > Video Clip`, drag and drop each video into its corresponding slot (e.g., Ground to Ground, Wall Canted to Wall Canted) to assign content to replace the demo content.
 4. Test the videos by playing the scene.
 
 ### Multi-Surface Projection Mapping
