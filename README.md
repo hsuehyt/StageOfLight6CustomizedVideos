@@ -1,9 +1,8 @@
 # Stage of Light - Six Customized Videos
- 
 
 ![Stage of Light Scene Preview](https://github.com/hsuehyt/StageOfLight6CustomizedVideos/blob/main/README/Screenshot%202024-11-19%20143629.png)
 
-**Stage of Light - Six Customized Videos** is a Unity project designed for NTNU Art Museum. It enables the projection of 6 customized videos onto the respective walls and floors of the immersive projection space, "Stage of Light." This space utilizes a Windows-based dome projection system that integrates with **Resolume Arena** to display the Unity project's build folder seamlessly.
+**Stage of Light - Six Customized Videos** is a Unity project designed for NTNU Art Museum. It enables the projection of six customized videos onto the respective walls and floors of the immersive projection space, "Stage of Light." This project leverages a Windows-based dome projection system integrated with **Resolume Arena** to display the Unity project's build folder seamlessly.
 
 ---
 
@@ -14,22 +13,22 @@
 4. [Video Format and Recommendations](#video-format-and-recommendations)
 5. [Building the Project](#building-the-project)
 6. [Demo Video](#demo-video)
-7. [Credits](#credits)
+8. [Credits](#credits)
 
 ---
 
 ## Features
 
-- **Seamless Playback:** The panoramic video format allows playback across the entire immersive space.
-- **Platform Agnostic:** Compatible with VR systems, dome projection systems, and Unity environments.
-- **Customizable Content:** Easily replace demo content with your own panoramic videos.
+- **Simplified Workflow:** Flat videos are easier to create than 360° panoramic videos, reducing the need for advanced content creation skills.  
+- **Optimized for Room Shape:** Tailored for the elongated room, minimizing distortion and ensuring accurate alignment with projection surfaces.  
+- **Flexible and Modular:** Quickly update or replace individual videos without reprocessing the entire project, allowing for customized storytelling.  
 
 ---
 
 ## Getting Started
 
 ### Prerequisites
-- Unity Editor **2021.3.6f1** or later is required (2021.3.6f1 is recommended).
+- Unity Editor **2021.3.6f1** or later (2021.3.6f1 is recommended).
 
 ### Installation
 1. Clone or download the project:
@@ -48,44 +47,46 @@
 
 ## Adding Your Video
 
+![Adding Your Video Preview](https://github.com/hsuehyt/StageOfLight6CustomizedVideos/blob/main/README/Screenshot%202024-11-19%20160751.png)
+
 1. Import your videos into `Assets/StageOfLight/`.
 2. In the **Hierarchy** panel, select `VideoPlayers`.
-3. In the **Inspector** panel, under `VideoPlayers > Video Clip`, replace the demo videos by dragging the videos into the respective slot.
+3. In the **Inspector** panel, under `VideoPlayers > Video Clip`, drag and drop your videos into the respective slots to replace the demo content.
 4. Test the videos by playing the scene.
 
 ---
 
 ## Video Format and Recommendations
 
-### Suggested Format
-- **Resolution:** 4K (4096x2048). For immersive/VR experiences, use **8K**, but note that Unity's Video Player currently supports up to **4K**.
-- **Aspect Ratio:** Maintain a **2:1 aspect ratio** (width to height) for panoramic videos.
+### Format Specifications
+
+| Surface              | Resolution   |
+|-----------------------|--------------|
+| Ground 地板           | 4096x910     |
+| Ground Canted 斜地板  | 4096x960     |
+| Wall Canted 斜面牆    | 4096x828     |
+| Wall Left 左邊牆面 (facing canted wall) | 1988x1128    |
+| Wall Right 右邊牆面 (facing canted wall) | 1988x1128    |
+| Wall Vertical 有門的牆 | 4096x1128    |
 
 ### Encoding with Adobe Media Encoder
 - **Preset:** `H.264 > Match Source - Adaptive Low Bitrate`
-- For better quality, use `Match Source - Adaptive High Bitrate`.
+- For better quality, use `Match Source - Adaptive Mid Bitrate` or `Match Source - Adaptive High Bitrate`.
 
-⚠ **Note:** High bitrate can cause playback issues for longer videos due to increased file sizes.
+⚠ **Note:** High bitrate settings may cause playback issues for longer videos due to increased file sizes.
 
-![Adobe Encoder Settings](https://github.com/hsuehyt/StageOfLight1PanoramicVideo/blob/main/README/Screenshot%202024-11-18%20134307highlighted.png)
+### Reminders for Projection Mapping
 
-### Projection Mapping
-Panoramic videos should use the **equirectangular format**, commonly used for VR 360 content:
-- **Sources:**  
-  - 360 cameras (for live-action footage)  
-  - Rendering from 3D tools like **Maya**, **Blender**, or **Unity**  
-  - AI-generated content (e.g., text-to-360, image-to-360, image-to-video)
-
-### Room Shape Considerations
-- Due to the **eccentric shape of "Stage of Light"**, which deviates from an ideal straight cube or dome shape, parts of the image may be **cut or distorted during projection**.  
-- To minimize image loss, ensure **careful alignment and testing**.
+- **Consistency:** Maintain uniform backgrounds, color grading, and transitions across all six videos to ensure a seamless visual experience.  
+- **Hardware Performance:** Verify that your system can handle the simultaneous playback of six video streams without lag or performance issues.  
+- **Testing and Calibration:** Thoroughly test and align videos to minimize distortion and cropping, especially given the elongated shape of the room.
 
 ---
 
 ## Building the Project
 
 1. Open **File > Build Settings** in Unity.
-2. Check **StageOfLight/PanoramicVideo** in **Scenes in Build**.
+2. Ensure **StageOfLight/6CustomizedVideos** is checked in **Scenes in Build**.
 3. Click **Build**, and follow the prompts to create the build folder.
 
 ---
@@ -98,7 +99,7 @@ Panoramic videos should use the **equirectangular format**, commonly used for VR
 
 ## Credits
 
-- **Original Unity Project Design:** [李綠恩 Lu-En Li](https://github.com/LeeMegumi)
+- **Original Unity Project Design:** [李綠恩 Lu-En Li](https://github.com/LeeMegumi)  
 - **Project Revision and Tutorial Demonstration:** [薛佑廷 Yuting Hsueh](https://github.com/hsuehyt)
 
 ### Supervising Institutions
