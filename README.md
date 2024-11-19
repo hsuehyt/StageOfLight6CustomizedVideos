@@ -13,8 +13,7 @@
 4. [Video Format and Recommendations](#video-format-and-recommendations)
 5. [Building the Project](#building-the-project)
 6. [Demo Video](#demo-video)
-7. [Reminders for Projection Mapping](#reminders-for-projection-mapping)
-8. [Credits](#credits)
+7. [Credits](#credits)
 
 ---
 
@@ -46,14 +45,20 @@
 
 ---
 
-## Adding Your Video
+## Adding Your Videos
 
-![Adding Your Video Preview](https://github.com/hsuehyt/StageOfLight6CustomizedVideos/blob/main/README/Screenshot%202024-11-19%20160751.png)
+![Adding Your Videos Preview](https://github.com/hsuehyt/StageOfLight6CustomizedVideos/blob/main/README/Screenshot%202024-11-19%20160751.png)
 
 1. Import your videos into `Assets/StageOfLight/`.
 2. In the **Hierarchy** panel, select `VideoPlayers`.
 3. In the **Inspector** panel, under the component `Video Players > Video Clip`, drag and drop the six videos into the respective slots to replace the demo content.
 4. Test the videos by playing the scene.
+
+### Multi-Surface Projection Mapping
+
+- **Consistency:** Ensure consistency in backgrounds and transitions across all six videos to create a cohesive and seamless experience.  
+- **Hardware Performance:** Test your system’s ability to play six video streams simultaneously without lag or performance drops.  
+- **Testing and Calibration:** Align and thoroughly test videos to avoid distortion and cropping, particularly for the elongated room layout.
 
 ---
 
@@ -89,14 +94,6 @@
 ## Demo Video
 
 [![Watch the Demo Video](https://github.com/hsuehyt/StageOfLight1PanoramicVideo/blob/main/README/Screenshot%202024-11-18%20132004cropped.png)](https://youtu.be/3P2WE4laE2U)
-
----
-
-## Reminders for Projection Mapping
-
-- **Consistency:** Ensure uniform backgrounds, color grading, and transitions across all six videos to create a cohesive and seamless experience.  
-- **Hardware Performance:** Test your system’s ability to play six video streams simultaneously without lag or performance drops.  
-- **Testing and Calibration:** Align and thoroughly test videos to avoid distortion and cropping, particularly for the elongated room layout.
 
 ---
 
