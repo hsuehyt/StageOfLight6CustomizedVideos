@@ -2,7 +2,9 @@
 
 ![Stage of Light Scene Preview](https://github.com/hsuehyt/StageOfLight6CustomizedVideos/blob/main/README/Screenshot%202024-11-19%20143629.png)
 
-**Stage of Light - Six Customized Videos** is a Unity project designed for NTNU Art Museum. It enables the projection of six customized videos onto the respective walls and floors of the immersive projection space, "Stage of Light." This project leverages a Windows-based dome projection system integrated with **Resolume Arena** to display the Unity project's build folder seamlessly.
+**Stage of Light - Six Customized Videos** is a Unity project created for NTNU Art Museum. It enables the seamless projection of six customized videos across the walls and floors of the immersive exhibition space, "Stage of Light." This project utilizes a Windows-based dome projection system integrated with **Resolume Arena**, allowing the Unity project's build folder to run smoothly for immersive visual experiences.  
+
+For a solution using a single panoramic video, please refer to [Stage of Light - One Panoramic Video](https://github.com/hsuehyt/StageOfLight1PanoramicVideo).
 
 ---
 
