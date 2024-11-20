@@ -92,7 +92,7 @@ For a solution using a single panoramic video, please refer to [Stage of Light -
 
 ## Demo Video
 
-[![Watch the Demo Video](https://github.com/hsuehyt/StageOfLight1PanoramicVideo/blob/main/README/Screenshot%202024-11-18%20132004cropped.png)](https://youtu.be/3P2WE4laE2U)
+[![Watch the Demo Video](https://img.youtube.com/vi/rCksp6MYeFc/0.jpg)](https://youtu.be/rCksp6MYeFc)
 
 ---
 
