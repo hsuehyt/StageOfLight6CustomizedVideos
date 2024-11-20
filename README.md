@@ -11,11 +11,12 @@ For a solution using a single panoramic video, please refer to [Stage of Light -
 ## Table of Contents
 1. [Features](#features)
 2. [Getting Started](#getting-started)
-3. [Adding Your Video](#adding-your-video)
+3. [Adding Your Videos](#adding-your-videos)
 4. [Video Format and Recommendations](#video-format-and-recommendations)
 5. [Building the Project](#building-the-project)
 6. [Demo Video](#demo-video)
-7. [Credits](#credits)
+7. [Preview of Six Surfaces](#preview-of-six-surfaces)
+8. [Credits](#credits)
 
 ---
 
@@ -96,6 +97,16 @@ For a solution using a single panoramic video, please refer to [Stage of Light -
 ## Demo Video
 
 [![Watch the Demo Video](https://github.com/hsuehyt/StageOfLight1PanoramicVideo/blob/main/README/Screenshot%202024-11-18%20132004cropped.png)](https://youtu.be/3P2WE4laE2U)
+
+---
+
+## Preview of Six Surfaces
+
+### Top Angle View
+![Top Angle View](https://github.com/hsuehyt/StageOfLight6CustomizedVideos/blob/main/README/Screenshot%202024-11-20%20005038.png)
+
+### Right Angle View
+![Right Angle View](https://github.com/hsuehyt/StageOfLight6CustomizedVideos/blob/main/README/Screenshot%202024-11-20%20005312.png)
 
 ---
 
