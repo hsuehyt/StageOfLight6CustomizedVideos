@@ -2,7 +2,9 @@
 
 ![Stage of Light Scene Preview](https://github.com/hsuehyt/StageOfLight6CustomizedVideos/blob/main/README/Screenshot%202024-11-19%20143629.png)
 
-**Stage of Light - Six Customized Videos** is a Unity project created for NTNU Art Museum. It enables the seamless projection of six customized videos across the walls and floors of the immersive exhibition space, "Stage of Light." This project utilizes a Windows-based dome projection system integrated with **Resolume Arena**, allowing the Unity project's build folder to run smoothly for immersive visual experiences.  
+**Stage of Light - Six Customized Videos** is a Unity project created for NTNU Art Museum. It enables the seamless projection of six customized videos across the walls and floors of the immersive exhibition space, "Stage of Light." This project uses a Windows-based dome projection system integrated with **Resolume Arena**, ensuring the Unity project's build folder runs smoothly for immersive visual experiences.
+
+This project also integrates packages from the **Keijiro Scoped Registry** and **OpenUPM**, including tools like **extOSC** for Open Sound Control (OSC) functionality and creative multimedia utilities.  
 
 For a solution using a single panoramic video, please refer to [Stage of Light - One Panoramic Video](https://github.com/hsuehyt/StageOfLight1PanoramicVideo).
 
@@ -57,12 +59,6 @@ For a solution using a single panoramic video, please refer to [Stage of Light -
 3. In the **Inspector** panel, under the component `Video Players > Video Clip`, drag and drop each video into its corresponding slot (e.g., Ground to Ground, Wall Canted to Wall Canted) to assign content to replace the demo content.
 4. Test the videos by playing the scene.
 
-### Multi-Surface Projection Mapping
-
-- **Consistency:** Ensure consistency in backgrounds and transitions across all six videos to create a cohesive and seamless experience.  
-- **Hardware Performance:** Test your system’s ability to play six video streams simultaneously without lag or performance drops.  
-- **Testing and Calibration:** Align and thoroughly test videos to avoid distortion and cropping, particularly for the elongated room layout.
-
 ---
 
 ## Video Format and Recommendations
@@ -112,8 +108,11 @@ For a solution using a single panoramic video, please refer to [Stage of Light -
 
 ## Credits
 
-- **Original Unity Project Design:** [李綠恩 Lu-En Li](https://github.com/LeeMegumi)  
-- **Project Revision and Tutorial Demonstration:** [薛佑廷 Yuting Hsueh](https://github.com/hsuehyt)
+- **The Original Unity Project Developer:** [李綠恩 Lu-En Li](https://github.com/LeeMegumi)  
+- **The Project Maintainer and Developer:** [薛佑廷 Yuting Hsueh](https://github.com/hsuehyt)  
+- **Integrated Tools:**  
+  - Packages by [Keijiro Takahashi](https://github.com/keijiro) via the Keijiro Scoped Registry  
+  - **extOSC** from [OpenUPM](https://package.openupm.com)  
 
 ### Supervising Institutions
 - **Advanced Display Technology & Interdisciplinary Talent Cultivation Project Office**, Ministry of Education  
