@@ -111,8 +111,8 @@ For a solution using a single panoramic video, please refer to [Stage of Light -
 - **The Original Unity Project Developer:** [李綠恩 Lu-En Li](https://github.com/LeeMegumi)  
 - **The Project Maintainer and Developer:** [薛佑廷 Yuting Hsueh](https://github.com/hsuehyt)  
 - **Integrated Tools:**  
-  - Packages by [Keijiro Takahashi](https://github.com/keijiro) via the Keijiro Scoped Registry  
-  - **extOSC** from [OpenUPM](https://package.openupm.com)  
+  - **Keijiro.Klak.SPOUT** from [Keijiro's Scoped Registry](https://github.com/keijiro)  
+  - **iam1337.extOSC** from [OpenUPM](https://package.openupm.com)  
 
 ### Supervising Institutions
 - **教育部 前瞻顯示科技與跨領域人才培育計畫 總計畫辦公室 Advanced Display Technology & Interdisciplinary Talent Cultivation Project Office, Ministry of Education**
