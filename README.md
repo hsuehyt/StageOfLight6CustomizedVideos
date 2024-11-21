@@ -2,7 +2,7 @@
 
 ![Stage of Light Scene Preview](https://github.com/hsuehyt/StageOfLight6CustomizedVideos/blob/main/README/Screenshot%202024-11-19%20143629.png)
 
-**Stage of Light - Six Customized Videos** is a Unity project created for NTNU Art Museum. It enables the seamless projection of six customized videos across the walls and floors of the immersive exhibition space, "Stage of Light." This project uses a Windows-based dome projection system integrated with **Resolume Arena**, ensuring the Unity project's build folder runs smoothly for immersive visual experiences.
+**Stage of Light - Six Customized Videos** is a Unity project created for 臺師大美術館 NTNU Art Museum. It enables the seamless projection of six customized videos across the walls and floors of the immersive exhibition space, "光影走廊 Stage of Light." This project uses a Windows-based dome projection system integrated with **Resolume Arena**, ensuring the Unity project's build folder runs smoothly for immersive visual experiences.
 
 This project also incorporates multimedia tools such as Keijiro.Klak.SPOUT for Spout-based video output and iam1337.extOSC for Open Sound Control (OSC) functionality, providing a versatile framework for interactive and immersive installations.  
 
@@ -75,6 +75,9 @@ For a solution using a single panoramic video, please refer to [Stage of Light -
 | Wall Vertical 有門的牆 | 4096x1128    |
 
 ### Encoding with Adobe Media Encoder
+
+![Adobe Media Encoder Settings](https://github.com/hsuehyt/StageOfLight1PanoramicVideo/blob/main/README/Screenshot%202024-11-18%20134307highlighted.png)
+
 - **Preset:** `H.264 > Match Source - Adaptive Low Bitrate`  
 - For better quality, use `Match Source - Adaptive Mid Bitrate` or `Match Source - Adaptive High Bitrate`.
 
