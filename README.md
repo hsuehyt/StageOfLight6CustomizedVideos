@@ -4,7 +4,7 @@
 
 **Stage of Light - Six Customized Videos** is a Unity project created for NTNU Art Museum. It enables the seamless projection of six customized videos across the walls and floors of the immersive exhibition space, "Stage of Light." This project uses a Windows-based dome projection system integrated with **Resolume Arena**, ensuring the Unity project's build folder runs smoothly for immersive visual experiences.
 
-This project also integrates packages from the **Keijiro Scoped Registry** and **OpenUPM**, including tools like **extOSC** for Open Sound Control (OSC) functionality and creative multimedia utilities.  
+This project also incorporates multimedia tools such as Keijiro.Klak.SPOUT for Spout-based video output and iam1337.extOSC for Open Sound Control (OSC) functionality, providing a versatile framework for interactive and immersive installations.  
 
 For a solution using a single panoramic video, please refer to [Stage of Light - One Panoramic Video](https://github.com/hsuehyt/StageOfLight1PanoramicVideo).
 
@@ -115,6 +115,6 @@ For a solution using a single panoramic video, please refer to [Stage of Light -
   - **extOSC** from [OpenUPM](https://package.openupm.com)  
 
 ### Supervising Institutions
-- **Advanced Display Technology & Interdisciplinary Talent Cultivation Project Office**, Ministry of Education  
-- **NTNU Advanced Display Technology Integration & Promotion in Art Venues**  
-- **NTNU Art Museum**
+- **教育部 前瞻顯示科技與跨領域人才培育計畫 總計畫辦公室 Advanced Display Technology & Interdisciplinary Talent Cultivation Project Office, Ministry of Education**
+- **臺師大 前瞻顯示科技導入藝術場域建置與推廣計畫 NTNU Advanced Display Technology Integration & Promotion in Art Venues**  
+- **臺師大 美術館 NTNU Art Museum**
