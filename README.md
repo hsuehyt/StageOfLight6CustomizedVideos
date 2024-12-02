@@ -67,12 +67,12 @@ For a solution using a single panoramic video, please refer to [Stage of Light -
 
 | Surface              | Resolution   |
 |-----------------------|--------------|
-| Ground 地板           | 4096x910     |
-| Ground Canted 斜地板  | 4096x960     |
-| Wall Canted 斜面牆    | 4096x828     |
-| Wall Left 左邊牆面 (facing canted wall) | 1988x1128    |
-| Wall Right 右邊牆面 (facing canted wall) | 1988x1128    |
-| Wall Vertical 有門的牆 | 4096x1128    |
+| Ground 地板           | 2700x600     |
+| Ground Canted 斜地板  | 2700x633     |
+| Wall Canted 斜面牆    | 2700x546     |
+| Wall Left 左邊牆面 (facing canted wall) | 1311x744    |
+| Wall Right 右邊牆面 (facing canted wall) | 1311x744    |
+| Wall Vertical 垂直的牆 | 2700x744    |
 
 ### Encoding with Adobe Media Encoder
 
